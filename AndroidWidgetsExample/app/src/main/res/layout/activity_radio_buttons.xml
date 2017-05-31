@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="pl.sdacademy.android_widgets_example.RadioButtons"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="co dziś zjesz?"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/schabowy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="jedzenie"
+            android:text="schabowy" />
+
+        <RadioButton
+            android:id="@+id/barszcz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="jedzenie"
+            android:text="barszcz" />
+
+        <RadioButton
+            android:id="@+id/rosol"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="jedzenie"
+            android:text="rosół" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="co dziś wypijesz?"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/wodka"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="picie"
+            android:text="wódka" />
+
+        <RadioButton
+            android:id="@+id/piwo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="picie"
+            android:text="piwo" />
+
+        <RadioButton
+            android:id="@+id/woda"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="picie"
+            android:text="woda" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/infoText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_weight="0.37" />
+</LinearLayout>

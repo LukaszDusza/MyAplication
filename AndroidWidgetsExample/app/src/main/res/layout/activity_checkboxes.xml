@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="pl.sdacademy.android_widgets_example.Checkboxes">
+
+    <CheckBox
+        android:id="@+id/pear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gruszki" />
+
+    <CheckBox
+        android:id="@+id/apple"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jabłka" />
+
+    <CheckBox
+        android:id="@+id/orange"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pomarańcze" />
+
+    <Button
+        android:id="@+id/checkButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wciśnij mnie" />
+</LinearLayout>
